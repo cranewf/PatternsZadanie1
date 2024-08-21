@@ -24,6 +24,9 @@ dependencies {
     // org.seleniumhq.selenium:selenium-java и io.github.bonigarcia:webdrivermanager
     // testImplementation 'org.seleniumhq.selenium:selenium-java:4.18.1'
     // testImplementation 'io.github.bonigarcia:webdrivermanager:5.7.0'
+    testCompileOnly 'org.projectlombok:lombok:1.18.34'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.34'
+    testImplementation 'com.github.javafaker:javafaker:1.0.2'
 }
 
 test {
