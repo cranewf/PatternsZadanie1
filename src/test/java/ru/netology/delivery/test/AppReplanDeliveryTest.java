@@ -71,7 +71,7 @@ public class AppReplanDeliveryTest {
     }
 
     @Test
-    public void NegativeTest(){
+    public void negativeTest(){
         var validUser = DataGenerator.Registration.generateUser("ru");
         var daysToAddForFirstMeeting = 5;
         var daysToAddForFirstMeetingPattern = "dd.MM.yyyy";
