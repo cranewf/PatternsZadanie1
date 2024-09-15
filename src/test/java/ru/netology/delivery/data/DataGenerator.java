@@ -43,6 +43,11 @@ public class DataGenerator {
         return fakerPhone.phoneNumber().phoneNumber();
     }
 
+    public static String generateWrongPhone(String locale){
+        Faker fakerWrongPhone = new Faker(new Locale(locale));
+        return fakerWrongPhone.numerify("########");
+    }
+
     public static class Registration {
         private Registration() {
         }
